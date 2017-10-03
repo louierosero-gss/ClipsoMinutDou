@@ -1,0 +1,104 @@
+/***
+* This is where the GSS Developer Apply and Edit the Code
+* Always make a comment to specific the css styles
+***/
+
+#wrapper {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  /*width: 100%;*/
+  min-width: 960px;
+}
+
+#container {
+  position: static;
+  height: 5340px;
+  background: transparent;
+}
+
+
+/**************
+  * PC Section 1
+  ***************/
+
+#pc {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  z-index: -10;
+}
+
+#pc .section1, #pc .section2 {
+  height: 500px;
+  width: 100%;
+  position: relative;
+}
+
+#pc .section1 {
+  height: 650px;
+  background: url('../res/img/section1-bg.jpg')center bottom no-repeat;
+}
+
+#pc .section1 .s1-content {
+  height: 530px;
+  background: url('../res/img/section1-bg2.jpg')center top no-repeat;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+#pc .section1 .s1-content .s1-container {
+  width: 960px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#pc .section1 .s1-content .s1-container .s1-message-bg {
+  height: 237px;
+  width: 520px;
+  background: #fff;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.60;
+  filter: alpha(opacity=60);
+  margin-top: 132px;
+}
+
+#pc .section1 .s1-content .s1-container img.bubble-message, #pc .section1 .s1-content .s1-container img.s1-message-icon, #pc .section1 .s1-content .s1-container p.main-message, #pc .section1 .s1-content .s1-container p.brand-name, #pc .section1 .s1-content .s1-container img.s1-rice-cooker {
+  position: absolute;
+}
+
+#pc .section1 .s1-content .s1-container img.bubble-message {
+  top: -65px;
+  left: 365px;
+}
+
+#pc .section1 .s1-content .s1-container img.s1-message-icon {
+  top: 28px;
+  left: 20px;
+}
+
+#pc .section1 .s1-content .s1-container p.main-message {
+  top: 40px;
+  left: 212px;
+}
+
+#pc .section1 .s1-content .s1-container p.brand-name {
+  top: 155px;
+  left: 212px;
+}
+
+#pc .section1 .s1-content .s1-container img.s1-rice-cooker {
+  right: -36px;
+  top: 144px;
+}
+
+
+/**************
+  * PC Section 1
+  ***************/
+
+#pc .section2 {}

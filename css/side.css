@@ -1,0 +1,163 @@
+@charset "utf-8";
+/*-----------------------------
+      SIDE_MENU
+-----------------------------*/
+#top_side {
+	float: right;
+	width: 260px;
+	padding: 10px 20px;
+	background: #ffffff;
+}
+#top_side .library {
+	width: 238px;
+	padding: 5px 10px;
+	border: 1px solid #cccccc;
+	font-size: 12px;
+}
+#top_side .library h3 {
+	margin: 0 0 10px 0;
+}
+#top_side .library dt {
+	float: left;
+	width: 127px;
+}
+#top_side .library dd {
+	float: right;
+	width: 104px;
+}
+#top_side ul {
+	margin: 10px 0 0 0;
+}
+#top_side li {
+	margin: 10px 0 0 0;
+}
+#side {
+	float: right;
+	width: 230px;
+}
+#side .side_area {
+	width: 200px;
+	margin: 0 0 20px 0;
+	padding: 15px;
+	background: #ffffff;
+}
+#side .side_area h3 {
+	margin: 0 0 20px 0;
+	padding: 0.3em 0 0.2em 0.5em;
+	border-left: 5px solid #ccc;
+	font-weight: bold;
+	font-size: 133%;
+}
+#side .side_area li {
+	margin: 10px 0 0 0;
+}
+#side .lineup dl {
+	margin: 10px 0 0 0;
+}
+#side .lineup dt {
+	margin: 5px 0;
+}
+#side .library h3 {
+	margin: 0 0 10px 0;
+}
+#side .customer ul {
+	margin: 10px 0 0 0;
+	border-top: 1px dotted #c6c9c9;
+}
+#side .customer li, #side .lineup dd {
+	margin: 0 0 0 5px;
+	padding: 5px 0;
+	border-bottom: 1px dotted #c6c9c9;
+}
+#side .customer li a, #side .lineup dd a {
+	padding-left: 12px;
+	background: url("../images/common/side/icon_side_menu.gif") no-repeat scroll left 0.3em;
+}
+#side .recipe_search .search_area {
+	margin: 10px 0;
+	padding: 10px 6px;
+	background: #dddedf;
+}
+#side .recipe_search .search_area input {
+	vertical-align: bottom;
+}
+#side .recipe_search .search_area .input_text {
+	width: 130px;
+	height: 28px;
+	border: 1px solid #999999;
+	font-size: 1.2em;
+}
+#side .recipe_search .search_area p {
+	margin: 10px 0 0 0;
+}
+#side .recipe_search .search_area li {
+	float: left;
+	border-right: 1px solid #666666;
+}
+#side .recipe_search .search_area li a {
+	padding: 0 5px;
+	color: #ff0000;
+}
+/* 旬の食材 */
+
+#side .recipe_search .search_item {
+	margin: 0 0 10px 0;
+	padding: 10px 0 5px 0;
+	border: 1px solid #dddedf;
+	font-size: 12px;
+}
+#side .recipe_search .search_item p {
+	margin: 0 0 10px 4px;
+}
+#side .recipe_search .search_item li {
+	float: left;
+	margin: 0 2px;
+	font-size: 10px;
+}
+#side .recipe_search .search_item li a {
+	display: block;
+	padding: 5px 10px;
+	background: #f1f1f1 url(../images/recipe/arrow.gif) 3px 0.9em no-repeat;
+}
+#side .recipe_new dl {
+	margin: 10px 0 0 0;
+}
+#side .recipe_new dt {
+	overflow: hidden;
+	width: 120px;
+	height: 60px;
+	text-align: center;
+}
+#side .recipe_new dd {
+	min-height: 60px;
+	margin: -60px 0 1em 0;
+	padding: 0 0 10px 125px;
+	border-bottom: 1px solid #c9c9c9;
+}
+#side .mobile dl {
+	margin: 10px 0 0 0;
+}
+#side .mobile dt {
+	width: 55px;
+}
+#side .mobile dd {
+	margin: -54px 0 0 0;
+	padding: 0 0 10px 65px;
+}
+#side .banner li {
+	margin: 10px 0;
+}
+#side .recipe_pickup p.img {
+	overflow: hidden;
+	width: 196px;
+	height: 120px;
+	margin: 10px 0 5px 0;
+	text-align: center;
+}
+#side .recipe_pickup ul {
+	margin: 5px 0 0 0;
+	border-top: 1px dotted #dddedf;
+}
+#side .recipe_pickup li {
+	margin: 5px 0;
+}

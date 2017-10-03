@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+
+#content {
+	 width:860px;
+	 margin:0 auto;
+	 padding:50px;
+	 height:500px;
+	 background:#fff;
+	 text-align:center;
+}
+
+h3 {
+	margin:0 0 50px 0;
+}
+#toToppage {
+	margin:50px 0;
+}
+#content ul {
+	width:656px;
+	margin:0 auto;
+}
+#content li {
+	float:left;
+	margin:0 7px;
+}

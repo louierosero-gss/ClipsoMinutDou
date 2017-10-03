@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+.social {
+	width:960px;
+	height:30px;
+	margin:0 auto;
+	/*overflow:hidden;*/
+}
+.social ul {
+	float:right;
+	width:230px;
+}
+.social ul li {
+	float:left;
+}
+.facebook {
+	width:97px;
+	height:20px;
+	margin-right:5px;
+	vertical-align:top;
+	z-index:100;
+}
+.facebook iframe {
+	z-index:1000;
+}
+.twitter {
+	width:73px;
+	height:20px;
+	margin-right:5px;
+	vertical-align:top;
+	z-index:100;
+}
+.googleplus {
+	width:50px;
+	height:20px;
+	vertical-align:top;
+}
+
